@@ -7,6 +7,13 @@ public class ConditionalStatementsDemo {
 		int a = 180;
 		int b = 180;
 
+		if (a != b) {
+			System.out.println("both are equal***");
+
+		} else {
+			System.out.println("both are NOT equal***");
+		}
+
 		// Verify which variable is large value
 //		while verify the if else block, system will check the condition
 //		the condition is TRUE, if block will execute
@@ -22,14 +29,12 @@ public class ConditionalStatementsDemo {
 
 		char c = 'y';
 		char d = 'e';
-		if (c > d) {//171>145 [ASCII table]
+		if (c > d) {// 171>145 [ASCII table]
 			System.out.println("c is large value");
 		} else {
 			System.out.println("e is large value");
 		}
 
-		
-		
 	}
 
 }
